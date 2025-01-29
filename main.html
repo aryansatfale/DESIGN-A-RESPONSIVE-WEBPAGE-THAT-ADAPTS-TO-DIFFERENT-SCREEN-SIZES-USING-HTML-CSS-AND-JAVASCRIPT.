@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Explore the World</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Search for destinations..." />
+        <button id="search-button">Search</button>
+    </div>
+    <div class="line"></div>
+    <section id="home" class="homeimg">
+        <h2>Welcome to Our Travel Website!</h2>
+        <p>Your adventure starts here.</p>
+        <img src="main.jpg" alt="Travel Banner" class="banner-image">
+    </section>
+    <div class="line"></div>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-container">
+            <div class="destination-card">
+                <img src="web image1.jpg" alt="Paris" class="destination-image">
+                <h3>Paris</h3>
+                <p>The city of lights.</p>
+            </div>
+            <div class="destination-card">
+                <img src="webimage2.jpg" alt="New York" class="destination-image">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+            </div>
+            <div class="destination-card">
+                <img src="webimage3.jpg" alt="Tokyo" class="destination-image">
+                <h3>Tokyo</h3>
+                <p>A blend of tradition and innovation.</p>
+            </div>
+            <!-- Additional Destination Cards -->
+            <div class="destination-card">
+                <img src="webimage4.jpg" alt="London" class="destination-image">
+                <h3>London</h3>
+                <p>The capital of England.</p>
+            </div>
+            <div class="destination-card">
+                <img src="webimage6.jpg" alt="Sydney" class="destination-image">
+                <h3>Sydney</h3>
+                <p>Home of the Sydney Opera House.</p>
+            </div>
+            <div class="destination-card">
+                <img src="webimage7.jpg" alt="Cape Town" class="destination-image">
+                <h3>Cape Town</h3>
+                <p>A stunning coastal city in South Africa.</p>
+            </div>
+        </div>
+    </section>
+    <div class="line"></div>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="web image1.jpg" alt="Gallery Image 1" class="gallery-image">
+            <img src="webimage4.jpg" alt="Gallery Image 2" class="gallery-image">
+            <img src="webimage7.jpg" alt="Gallery Image 3" class="gallery-image">
+        </div>
+    </section>
+    <div class="line"></div>
+    <section class="ab" id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about travel and helping you find your next adventure!</p>
+    </section>
+
+    <section id="contact" class="cont">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name" >Name:</label><br>
+            <input type="text" id="name" placeholder="Name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Email" name="email" required><br>
+
+            <input class="sub" type="submit"  value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Explore the World. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
